@@ -1,0 +1,118 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,500;1,600&display=swap');
+
+/* VARIABLE */
+:root {
+    --primary-color: #b5c3ca;
+    --dark-color: #0F0F0F;
+    --gray-color: gray;
+
+    --h1-font-size: 40px;
+    --h2-font-size: 32px;
+    --small-font-size: 14px;
+
+}
+
+body {
+    background-color: hsl(137, 79%, 37%); /* Ganti dengan warna latar belakang yang diinginkan */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+section {
+    padding: 70px 0;
+}
+
+section .section-tittle {
+    font-size: var(--h2-font-size);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-orange{
+    background-color: var(--primary-color);
+}
+
+.text-dark{
+    color: var(--dark-color);
+}
+
+.fs-7 {
+    font-size: var(--small-font-size);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--primary-color);
+}
+
+/* NAVBAR */
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link.active{
+    color: var(--primary-color)
+}
+.bg-blue {
+    background-color: rgb(56, 102, 141); /* Ubah ke warna biru yang Anda inginkan */
+}
+
+
+/* HEADER */
+.header-section .header-title {
+    font-size: var(--h1-font-size);
+}
+
+.header-section .header-skill {
+    color: var(--h1-dark-color);
+}
+
+.header-section .header-skill:hover {
+    color: var(--primary-color);
+}
+
+.header-section .header-skill i{
+    transition: .3s;
+}
+
+.header-section .header-skill:hover i {
+    transform: rotate(-45deg);
+}
+
+.header-section .header-img {
+    width: 90%
+}
+
+/* Gaya untuk teks "Profile Kampus" */
+.text-orange {
+    color: #cdff05; /* Warna teks */
+    font-weight: bold; /* Ketebalan teks */
+    font-size: 30px; /* Ukuran teks */
+    /* Sesuaikan properti lain sesuai preferensi */
+}
+
+/* Gaya untuk latar belakang navbar-brand */
+.navbar-brand {
+    background-color: #cdb8b8; /* Ganti dengan warna latar belakang yang diinginkan */
+    color: #000000; /* Warna teks di atas latar belakang */
+    padding: 10px 20px; /* Sesuaikan padding sesuai preferensi */
+    border-radius: 5px; /* Untuk memberikan sudut yang lebih lembut */
+    /* Sesuaikan properti lain sesuai preferensi */
+}
+
+
+
+
+
+

@@ -1,0 +1,108 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFILE KAMPUS</title>
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="{% static 'css/boxicons.min.css' %}">
+
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-blue">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">KAMPUS 5 MENARA ILMU</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sejarahkampus.html">Sejarah Kampus</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="visimisi.html">Visi & Misi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hubungikami.html">Informasi Kontak</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- HEADER -->
+      <section class="header-section" id="header">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md-6">
+              <p class="text-orange fw-semibold">Profile Kampus</p>
+              <h1 class="header-title text-uppercase fw-bold mb-5">UNIVERSITAS ISLAM MADURA
+              </h1>
+
+              <a href="#" class="navbar-brand fw-semibold">
+                PROGRAM AKADEMIK :</a><br>
+                <br>
+              <a href="#" class="header-skill d-inline-flex align-items-center gap-2">
+                Fakultas Teknik <i class="bx bx-right-arrow-alt fs-4"></i>
+              </a> <br>
+              <a href="#" class="header-skill d-inline-flex align-items-center gap-2">
+                Fakultas MIPA <i class="bx bx-right-arrow-alt fs-4"></i>
+              </a> <br>
+              <a href="fakultasagamaislam.html" class="header-skill d-inline-flex align-items-center gap-2">
+                Fakultas Agama Islam <i class="bx bx-right-arrow-alt fs-4"></i>
+              </a> <br>
+              <a href="fakultaspertanian.html" class="header-skill d-inline-flex align-items-center gap-2">
+                Fakultas Pertanian <i class="bx bx-right-arrow-alt fs-4"></i>
+              </a> <br>
+              <a href="fakultasekonomi.html" class="header-skill d-inline-flex align-items-center gap-2">
+                Fakultas Ekonomi <i class="bx bx-right-arrow-alt fs-4"></i>
+              </a> <br>
+              <a href="fakultasfkip.html" class="header-skill d-inline-flex align-items-center gap-2">
+                Fakultas FKIP <i class="bx bx-right-arrow-alt fs-4"></i>
+              </a> <br>
+              <a href="#" class="header-skill d-inline-flex align-items-center gap-2">
+                Fakultas Ilmu Kesehatan <i class="bx bx-right-arrow-alt fs-4"></i>
+              </a> <br>
+              <a href="#" class="header-skill d-inline-flex align-items-center gap-2">
+                Fakultas Hukum<i class="bx bx-right-arrow-alt fs-4"></i>
+              </a> <br>
+
+              <div class="d-flex align-items-center gap-4 mt-5">
+                <div class="d-flex align-items-center gap-2">
+                  <h2 class="header-skill fs-7 mb-1">@Tahun2023</h2>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                  
+                  <p class="text-seconday fs-7 mb-0">
+                
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img src="{% static 'img/uim.png' %}" alt="">
+            </div>
+          </div>
+        </div>  
+      </section>
+
+    <script src="{% static 'vendors/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <script>
+      var swiper = new Swiper(".portofolio-swiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      });
+    </script>
+</body>
+</html>
