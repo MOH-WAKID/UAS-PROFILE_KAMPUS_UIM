@@ -3,7 +3,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('uim.urls')),  # Pastikan include digunakan dengan benar
-    # ... (URL patterns lainnya)
+    path('', include('uim.urls')), 
+   
 ]
 

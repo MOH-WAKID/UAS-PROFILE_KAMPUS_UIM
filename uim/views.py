@@ -9,3 +9,6 @@ def sejarahkampus(request):
 
 def visimisi(request):
     return render(request, 'visimisi.html')
+
+def hubungikami(request):
+    return render(request, 'hubungikami.html')
