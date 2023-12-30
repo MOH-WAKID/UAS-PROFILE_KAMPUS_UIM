@@ -18,3 +18,7 @@ def fakultasteknik(request):
 
 def fakultasmipa(request):
     return render(request, 'fakultasmipa.html')
+
+def fakultas_pai(request):
+    return render(request, 'fakultas_pai.html')
+
