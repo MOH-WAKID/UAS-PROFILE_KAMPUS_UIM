@@ -15,3 +15,6 @@ def hubungikami(request):
 
 def fakultasteknik(request):
     return render(request, 'fakultasteknik.html')
+
+def fakultasmipa(request):
+    return render(request, 'fakultasmipa.html')
