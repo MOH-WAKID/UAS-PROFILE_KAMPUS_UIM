@@ -12,3 +12,6 @@ def visimisi(request):
 
 def hubungikami(request):
     return render(request, 'hubungikami.html')
+
+def fakultasteknik(request):
+    return render(request, 'fakultasteknik.html')
