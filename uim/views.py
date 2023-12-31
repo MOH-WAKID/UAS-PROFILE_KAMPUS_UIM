@@ -31,3 +31,6 @@ def fakultasekonomi(request):
 def fakultas_fkip(request):
     return render(request, 'fakultas_fkip.html')
 
+def fakultasilmukesehatan(request):
+    return render(request, 'fakultasilmukesehatan.html')
+

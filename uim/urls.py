@@ -12,6 +12,7 @@ urlpatterns = [
     path('fakultaspertanian.html/', views.fakultaspertanian, name='fakultaspertanian'),
     path('fakultasekonomi.html/', views.fakultasekonomi, name='fakultasekonomi'),
     path('fakultas_fkip.html/', views.fakultas_fkip, name='fakultas_fkip'),
+    path('fakultasilmukesehatan.html/', views.fakultasilmukesehatan, name='fakultasilmukesehatan'),
 ]
 
 
