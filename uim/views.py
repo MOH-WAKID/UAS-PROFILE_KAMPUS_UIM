@@ -34,3 +34,6 @@ def fakultas_fkip(request):
 def fakultasilmukesehatan(request):
     return render(request, 'fakultasilmukesehatan.html')
 
+def fakultashukum(request):
+    return render(request, 'fakultashukum.html')
+
