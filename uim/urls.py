@@ -10,6 +10,7 @@ urlpatterns = [
     path('fakultasmipa.html/', views.fakultasmipa, name='fakultasmipa'),
     path('fakultas_pai.html/', views.fakultas_pai, name='fakultas_pai'),
     path('fakultaspertanian.html/', views.fakultaspertanian, name='fakultaspertanian'),
+    path('fakultasekonomi.html/', views.fakultasekonomi, name='fakultasekonomi'),
 ]
 
 

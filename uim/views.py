@@ -25,3 +25,6 @@ def fakultas_pai(request):
 def fakultaspertanian(request):
     return render(request, 'fakultaspertanian.html')
 
+def fakultasekonomi(request):
+    return render(request, 'fakultasekonomi.html')
+
