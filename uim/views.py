@@ -22,3 +22,6 @@ def fakultasmipa(request):
 def fakultas_pai(request):
     return render(request, 'fakultas_pai.html')
 
+def fakultaspertanian(request):
+    return render(request, 'fakultaspertanian.html')
+
