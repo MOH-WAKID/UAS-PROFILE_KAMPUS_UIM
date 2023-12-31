@@ -28,3 +28,6 @@ def fakultaspertanian(request):
 def fakultasekonomi(request):
     return render(request, 'fakultasekonomi.html')
 
+def fakultas_fkip(request):
+    return render(request, 'fakultas_fkip.html')
+

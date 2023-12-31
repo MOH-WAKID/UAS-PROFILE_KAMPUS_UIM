@@ -11,6 +11,7 @@ urlpatterns = [
     path('fakultas_pai.html/', views.fakultas_pai, name='fakultas_pai'),
     path('fakultaspertanian.html/', views.fakultaspertanian, name='fakultaspertanian'),
     path('fakultasekonomi.html/', views.fakultasekonomi, name='fakultasekonomi'),
+    path('fakultas_fkip.html/', views.fakultas_fkip, name='fakultas_fkip'),
 ]
 
 
