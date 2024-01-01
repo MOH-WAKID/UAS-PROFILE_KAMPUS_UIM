@@ -10,11 +10,10 @@
     --h1-font-size: 40px;
     --h2-font-size: 32px;
     --small-font-size: 14px;
-
 }
 
 body {
-    background-color: hsl(137, 79%, 37%); /* Ganti dengan warna latar belakang yang diinginkan */
+    background-color: hsl(137, 79%, 37%); 
 }
 
 * {
@@ -65,9 +64,8 @@ section .section-tittle {
     color: var(--primary-color)
 }
 .bg-blue {
-    background-color: rgb(56, 102, 141); /* Ubah ke warna biru yang Anda inginkan */
+    background-color: rgb(56, 102, 141);
 }
-
 
 /* HEADER */
 .header-section .header-title {
@@ -99,16 +97,14 @@ section .section-tittle {
     color: #cdff05; /* Warna teks */
     font-weight: bold; /* Ketebalan teks */
     font-size: 30px; /* Ukuran teks */
-    /* Sesuaikan properti lain sesuai preferensi */
 }
 
 /* Gaya untuk latar belakang navbar-brand */
 .navbar-brand {
-    background-color: #cdb8b8; /* Ganti dengan warna latar belakang yang diinginkan */
+    background-color: #cdb8b8; 
     color: #000000; /* Warna teks di atas latar belakang */
-    padding: 10px 20px; /* Sesuaikan padding sesuai preferensi */
+    padding: 10px 20px;
     border-radius: 5px; /* Untuk memberikan sudut yang lebih lembut */
-    /* Sesuaikan properti lain sesuai preferensi */
 }
 
 
