@@ -1,7 +1,5 @@
 from django.db import models
 
-from django.db import models
-
 class SejarahKampus(models.Model):
     nama = models.CharField(max_length=100)
     tanggal_berdiri = models.DateField()
@@ -12,7 +10,8 @@ class SejarahKampus(models.Model):
 class VisiMisi(models.Model):
     visi = models.TextField()
     misi = models.TextField()
+    sejarahkampus_id = models.ForeignKey(SejarahKampus, on_delete=models.CASCADE, null=True)
 
     def __str__(self):
-        return "Visi dan Misi" 
+        return self.visi
 

@@ -100,8 +100,7 @@ section .section-tittle {
     background-color: #cdb8b8; 
     color: #000000; /* Warna teks di atas latar belakang */
     padding: 10px 20px;
-    border-radius: 5px; /* Untuk memberikan sudut yang lebih lembut */
-}
+    border-radius: 5px; 
 
 
 
